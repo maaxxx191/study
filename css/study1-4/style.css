@@ -1,0 +1,15 @@
+.main {
+  background-color: pink;
+  width:300px;
+  height: 300px;
+  margin: 100px;
+  position: relative;
+}
+.left-contebt {
+  background-color: skyblue;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 60px;
+  left: 60px;
+}

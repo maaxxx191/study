@@ -1,0 +1,78 @@
+body {
+  background-image:url("../../picture/背景.jpeg");
+}
+header {
+  background-color: skyblue;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+}
+.menu ul li {
+  margin: 0 15px;
+}
+ 
+.menu-list {
+  background-color: white;
+  width: 120px;
+  border:pink 2px solid;
+}
+.lanch-time {
+  background-color: white;
+  width: 150px;
+  border:pink 2px solid;
+}
+.top-content {
+  background-color: #eee0d2;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+.image1,.image2,.image3 {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+}
+.left-text,.center-text,.right-text {
+  text-align: center;
+}
+.money {
+  margin-left: 20px;
+}
+.bottom-content {
+  background-color: #febfcb;
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+.dinner-time {
+  background-color: white;
+  width: 170px;
+  border:pink 2px solid;
+}
+.event-info {
+  background-color: white;
+  width: 145px;
+  border:pink 2px solid;
+}
+.texts {
+  background-color: white;
+  border: black 2px solid;
+}
+.events {
+  list-style: none;
+}
+.event {
+  margin: 15px 0;
+}
+.day {
+  color: orange;
+}
